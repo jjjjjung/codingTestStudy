@@ -1,7 +1,8 @@
+#10828번
 import sys
 input = sys.stdin.readline
 
-n=int(input())
+n = int(input())
 stack = []
 
 for i in range(n):
