@@ -1,5 +1,5 @@
 #1158번
-n,k = map(int,input().split())
+n, k = map(int, input().split())
 
 arr = []
 num = 0
