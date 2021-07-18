@@ -7,7 +7,7 @@ ans = []
 
 for i in range(n):
     arr.append(i+1)
-
+print(arr)
 for i in range(n):
     num += k-1
     if num >= len(arr):
