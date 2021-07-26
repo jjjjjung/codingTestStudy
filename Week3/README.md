@@ -172,6 +172,10 @@ ans = sys.stdin.readline().strip()
 if ans.isdigit() == True:
     print(dict1[int(ans)-1])
 ```
+## 210723
+
+- **1100번** - 하얀 칸
+
 
 ## 210725
 
