@@ -11,5 +11,6 @@ for i in range(1, n+1):
     ans = i + sum(num)
     if ans == n:
         res = i
+        break
 
 print(res)
