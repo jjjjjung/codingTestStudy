@@ -207,4 +207,25 @@ if graph[na][nb] == 1:
 print(graph[n-1][m-1])
 ```
 
-## 210731
+## 210801 - FINAL
+
+- **1743번** - 음식물 피하기
+
+> - 문제가 어려웠던게 아니라 나의 행렬 개념 부족으로 한참 헤맴,,
+
+일단 *n*이 세로, *m*이 가로이므로 이중 *for*문을 
+
+```py
+for i in range(n):
+    for j in range(m):
+        if graph[i][j] == 1:
+```
+이렇게 만들어 줘야 하는데 *n*과 *m*을 바꿔서 작성함
+
+그리고 추가한 코드, *dfs*함수 내에서 밑의 *if*문을 작성해줘서 입력받는 좌표의 범위 검사를 따로 안해줘도 됨~,,
+
+```py
+if nx>=0 and nx<n and ny>=0 and ny<m:
+    if graph[nx][ny] == 1:
+        dfs(nx, ny)
+```
