@@ -229,3 +229,5 @@ if nx>=0 and nx<n and ny>=0 and ny<m:
     if graph[nx][ny] == 1:
         dfs(nx, ny)
 ```
+
+- **22352번** - 항체 인식
